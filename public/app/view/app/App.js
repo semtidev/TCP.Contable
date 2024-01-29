@@ -84,7 +84,7 @@ Ext.define('TCPContable.view.app.App', {
                             "background": "url(images/desktop.jpg)",
                             "background-size": "cover"
                         },
-                        html: '<div class="home_appname"><h1>TCP.Contable</h1>Sistema de Gesti&oacute;n Contable Simplificada<h6>Copyright &copy; 2020 SEMTI. Todos los derechos reservados.</h6></div>'
+                        html: '<div class="home_appname"><h1>TCP.Contable</h1>Sistema de Gesti&oacute;n de Contabilidad Simplificada<h6>Copyright &copy; 2020 SEMTI. Todos los derechos reservados.</h6></div>'
                     }]
                 }
             ]		
