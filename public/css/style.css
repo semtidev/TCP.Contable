@@ -1,0 +1,450 @@
+h4 {
+    margin: 10px auto !important;
+    color: #c93a1b;
+    padding-left: 15px;
+}
+br {
+    margin: 5px auto;
+}
+#loginCmp {
+    border-color: #016CC2 !important;
+}
+#loginCmp_header {
+    background-color: #016CC2 !important;
+    border-color: #016CC2 !important;
+}
+.x-mask {
+    filter: alpha(opacity=70);
+    opacity: .7;
+    background: rgb(205, 232, 252);
+}
+.x-mask-msg {
+    padding: 8px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    font-size: 11px;
+    color: #333;
+    border-radius: 3px;
+    background-image: none;
+    background-color: #fff;
+    border: rgb(171, 214, 247) 1px solid;
+    box-shadow: none !important;
+}
+.x-css-shadow {
+    box-shadow: none !important;
+}
+.x-tip {
+    background-color: rgb(252, 228, 122) !important;
+    border-color: burlywood !important;
+}
+.x-tree-view a:link, .x-tree-view a:visited, .x-tree-view a:active {
+    text-decoration: none;
+    color: rgb(2, 102, 216);
+}
+#header .appname {
+    width: auto; 
+    float:left;
+}
+#header .apphome::before  {
+    content: '|';
+    font-size: 20px;
+    margin-right: 15px;
+    color: rgb(166, 195, 250);
+}
+#header .apphome {
+    width: auto; 
+    float:left;
+    padding: 5px 0 0 5px;
+}
+#header .applogout {
+    width: auto; 
+    float:left;
+    padding: 10px 0 0 17px;
+}
+#header .apphome a, #header .applogout a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+#header .apphome a:hover, #header .applogout a:hover {
+    color: rgb(215, 227, 250);
+}
+#header .tcpselector {
+    width: auto;
+    padding: 9px 5px 0 5px; 
+    float:right;
+}
+#header .tcpselector .x-form-trigger-wrap {
+    width: 230px !important;
+}
+#header h1 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 10px;
+    margin: 0;
+    text-shadow: rgb(82, 128, 180) 1px 1px;
+}
+#aftgrid_header, .x-tab-bar-default {
+    background-color: rgb(8, 108, 202) !important;
+}
+.x-tab-default-top {
+    background-color: #5EA7DB;
+}
+.x-tab-default-active {
+    background-color: #add2ed;
+}
+.x-tab-default-active .x-tab-inner {
+    color: #024a7e !important;
+}
+#layout-browser_header, #layout-browser-placeholder, #details-company_header, #details-company-placeholder {
+    background-color: rgb(8, 108, 202) !important;
+}
+#layout-browser_header .x-tool-img, #layout-browser-placeholder .x-tool-img, #details-company_header .x-tool-img, #details-company-placeholder .x-tool-img {
+    background-color: rgb(8, 108, 202) !important;
+}
+.home_appname {
+    width: auto;
+    margin: 25% auto auto auto;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    text-shadow: rgb(7, 61, 65) 1px 1px;
+}
+.home_appname h6 {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    text-shadow: rgb(7, 61, 65) 1px 1px;
+}
+.details-left {
+    float: left;
+    width: auto;
+    height: auto;
+    margin-right: 50px;
+}
+.details-right {
+    float: left;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+.details-info {
+    margin: 15px;
+    color: #555;
+    /*padding: 15px;
+    border: 1px dotted #999;
+    background: #fff;*/
+    height: auto;
+}
+.details-info strong {
+    color: brown;
+}
+.details-company {
+    margin: 15px;
+    padding: 15px;
+    border: 1px dotted #999;
+    color: rgb(43, 45, 48);
+    background: #fff;
+    height: auto;
+}
+.details-company strong {
+    color: rgb(118, 122, 126);
+    font-weight: 500;
+    font-size: 12px;
+}
+.details-company i {
+    color: rgb(230, 84, 0);
+}
+.details-company h4 {
+    margin: 0 auto 10px auto !important;
+    font-weight: 500;
+    color: unset;
+    padding-left: unset;
+}
+.glyph { 
+    margin-top: 1px; 
+    margin-right: 0;
+    margin-left: 5px; 
+}
+.icon-white {
+    color: #ffffff;
+}
+.icon-MessageBox-info {
+    background-image:url(../images/icons/Info.png);
+    background-repeat: no-repeat;
+}
+.icon-MessageBox-error {
+    background-image:url(../images/icons/Error.png);
+    background-repeat: no-repeat;
+}
+.icon-MessageBox-help {
+    background-image:url(../images/icons/Help.png);
+    background-repeat: no-repeat;
+}
+
+.x-btn-default-small-icon-text-left .x-btn-inner {
+    line-height: 16px;
+    padding-left: 20px;
+}
+
+.msg_system_title{
+    width: 200px;
+    float: right;
+    position: absolute;
+    top: 2px;
+    right: 0;
+    text-align: right;
+}
+
+/* style rows on mouseover 
+.x-grid-row-over .x-grid-cell-inner {
+        font-weight: bold;
+}
+.x-property-grid .x-grid-row .x-grid-property-name .x-grid-cell-inner {
+    white-space: normal;
+}*/
+.x-column-header-text {
+    white-space: normal !important;
+}
+.x-column-header-align-right .x-column-header-text {
+    margin-right: 0;
+}
+
+.x-livesearch-match {
+    font-weight: bold;
+    background-color: yellow;
+}
+
+.x-toolbar .x-form-cb-wrap {
+    line-height: 22px;
+}
+.x-toolbar .x-form-checkbox {
+    vertical-align: 0;
+}
+
+/* GridFilters Styles */
+.ux-filtered-column {
+    font-style: italic;
+    font-weight: bold;
+}
+.ux-gridfilter-text-icon {
+    background-image: url(../images/icons/find.png) !important;
+}
+.ux-rangemenu-icon {
+    display: block;
+    height: 16px;
+    background: no-repeat 5px center;
+}
+
+.ux-rangemenu-gt {
+    background-image: url(../images/icons/greater_than.png) !important;
+}
+
+.ux-rangemenu-lt {
+    background-image: url(../images/icons/less_than.png) !important;
+}
+
+.ux-rangemenu-eq {
+    background-image: url(../images/icons/equals.png) !important;
+}
+
+
+/******************************
+******************************/
+
+.x-fieldset{
+    background-color:#fff;
+}
+.x-fieldset-header-text {
+    font-weight: 700;
+}
+.x-tab-default-active .x-tab-inner {
+    color: #0461a3;
+}
+/*.x-form-field {
+    padding: 5px !important;
+}
+.x-form-trigger-wrap, .x-form-trigger-wrap .x-form-text, .x-form-trigger {
+    height: 27px !important;
+}
+.x-form-trigger {
+    background-position-y: center;
+}
+.x-form-text {
+    height: auto;
+}*/
+.red .x-grid-cell {  
+     background-color: #FFFFDD;  
+     height: 50px;
+} 
+.grid-body-border-style{
+    border:#999 1px solid;
+}
+.splitter-active-background-color{
+    background-color: #3892D3;   /*#c4c6c7*/
+}
+.component_emotion{
+    background-image:url(../images/icons/emotion1.png); 
+}
+.x-grid3-row td {line-height: 16px;} 
+.component_type_show{
+    background-image:url(../images/icons/type_show.png); 
+}
+.component_type_controlpanel{
+    background-image:url(../images/icons/type_controlpanel.png); 
+}
+
+/**********************************
+*******      ICONOS        ********
+**********************************/
+.system_name{ color:#000;}
+.linked{cursor:pointer;}
+.linked:hover{font-weight:normal;}
+.doc_pdf {
+    width: 48px;
+    height: 65px;
+    background-image: url(../images/icons/doc_pdf.jpg);
+}
+.icon_none{
+    background-image:none !important;
+    margin-right:-20px;
+}
+.icon_folder{
+    background-image:url(../images/icons/File.png) !important;
+}
+.icon_form{
+    background-image:url(../images/icons/application_form.png) !important;
+}
+.icon_informes{
+    background-image:url(../images/icons/report.png) !important;
+}
+.icon_columns{
+    background-image:url(../images/icons/16x16-free-application-icons/png/16x16/Text.png) !important;
+}
+.icon_tcp{
+    background-image: url(../images/icons/16x16-free-application-icons/png/16x16/Boss.png) !important;
+}
+.icon_operations{
+    background-image: url(../images/icons/16x16-free-application-icons/png/16x16/Notes.png) !important;
+}
+.icon_pdf{
+    background-image: url(../images/icons/pdf.png) !important;
+}
+.icon_find{
+    background-image: url(../images/icons/16x16-free-application-icons/png/16x16/Find.png) !important;
+}
+.icon-new{
+    background-image: url(../images/icons/16x16-free-application-icons/png/16x16/New%20document.png) !important;
+}
+.icon-update{ 
+    background-image: url(../images/icons/reload.png) !important;
+}
+.icon-user{
+    background-image: url(../images/icons/16x16-free-application-icons/png/16x16/Male.png) !important;
+}
+
+.icon-save {
+    background-image: url(../images/icons/check2.png) !important;
+}
+
+.icon-edit {
+    background-image: url(../images/icons/edit2.png) !important;
+}
+
+.icon-add {
+    background-image: url(../images/icons/add2.png) !important;
+}
+.icon-delete {
+    background-image: url(../images/icons/delete.png) !important;
+}
+.icon-reload {
+    background-image: url(../images/icons/reload.png) !important;
+}
+.icon-print {
+    background-image: url(../images/icons/printer.png) !important;
+}
+
+.toolbar_button{
+    border:#afb2b4 1px solid;
+    /*height:25px;*/
+    padding:5px;
+    color:#575758;
+}
+.toolbar_button:hover{
+    background:#FFF;
+    color:#575758;
+}
+.topbarTree_button{
+    border:#c2c3c3 1px solid;
+    background:#FFFFFF;    /*f7f8f8*/
+    padding:4px;
+    margin:2px;
+    color:#575758;
+}
+.topbarTree_button:hover{
+    border:#157FCC 1px solid;
+    color:#575758;
+}
+.toolbar_main_button{
+    border:#157FCC 1px solid;
+    padding:5px;
+    color:#000;/**/
+}
+.toolbar_main_button:hover{
+    background:#FFF;
+    border:#157FCC 1px solid;
+    padding:5px;
+    color:#FFFFFF;
+}
+.toolbar{
+    background:rgb(199, 225, 243);
+    border-bottom: rgb(231, 243, 252) 1px solid !important;
+}
+.toolbar_button {
+    border: #73aed6 1px solid;
+    background-color: whitesmoke;
+    background-image: unset;
+}
+.x-menu, .x-boundlist, .x-datepicker {
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(152, 157, 161);
+}
+.x-btn-plain-toolbar-small-disabled .x-btn-icon-el, .x-btn-plain-toolbar-medium-disabled .x-btn-icon-el, .x-btn-plain-toolbar-large-disabled .x-btn-icon-el {
+    background-color: unset !important;
+}
+.x-btn-default-toolbar-small-icon-text-left .x-btn-inner {
+    color: rgb(56, 57, 58);
+    font-weight: 700;
+}
+.separator{
+    /*background: url(../images/toolbar_separator.png) repeat-y;*/
+    border-left: tomato 1px solid;
+}
+
+#aftgrid .x-column-header-align-right .x-column-header-text, #entrydaygrid .x-column-header-align-right .x-column-header-text {
+    margin-right: 0 !important;
+}
+
+.titlebar{
+    background: url(../images/titlebar_bg.png) repeat-x;
+    color:#FFF;
+    font-weight:bold;
+}
+
+.x-grid-row-selected .x-grid-td {
+    background-color: rgb(199, 225, 243);
+}
+.x-grid-cell-inner-treecolumn {
+    cursor: pointer !important;
+}
+.x-panel-header-default-vertical .x-panel-header-text-container {
+    left: 16px !important;
+}
+
+.detail-block{
+    margin: 5px auto !important;
+}
